@@ -32,7 +32,7 @@ class Store:
             for item, price in self.items.items():
                 print(f"  - {item}: {price:.2f} руб.")
 
-# Пример использования добавление товара:
+# Пример использования:
 
 # Создание магазина
 my_store = Store("Фруктовый Рай", "ул. Садовая, 15")

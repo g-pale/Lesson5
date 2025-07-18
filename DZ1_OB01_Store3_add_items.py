@@ -35,13 +35,14 @@ class Store:
 # Пример использования:
 
 # Создание магазина
-my_store = Store("Фруктовый Рай", "ул. Садовая, 15")
+my_store = Store("Сотовик", "ул. Урицкого, 26")
 
 # Добавление товаров
-my_store.add_item("яблоки", 0.5)
-my_store.add_item("бананы", 0.75)
+my_store.add_item("Nokia 3310", 13000.00)
+my_store.add_item("Siemens S80", 14500.00)
+my_store.add_item("Motorola StarTac", 17000.00)
+my_store.add_item("Sony Ericsson", 15000.00)
 
 
 # Вывод информации о магазине
 my_store.display_info()
-
